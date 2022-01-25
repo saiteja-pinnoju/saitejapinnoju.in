@@ -133,7 +133,7 @@
             url += '+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup';
             break;
         case 6:
-            url += '+inurl:login';
+            url += '+inurl:login+intext:login+intext:username+intext:password+intitle:admin';
             break;
         case 7:
             url += '+intext:"sql+syntax+near"+|+intext:"syntax+error+has+occurred"+|+intext:"incorrect+syntax+near"+|+intext:"unexpected+end+of+SQL+command"+|+intext:"Warning:+mysql_connect()"+|+intext:"Warning:+mysql_query()"+|+intext:"Warning:+pg_connect()"';
